@@ -16,27 +16,27 @@ Build a Parsity-inspired AI learning assistant that demonstrates how to ship a p
 4. **Executive alignment:** “Selling the Vision” artifacts (deck, one-pager, demo video) clearly communicate value, costs, and risks.
 
 ## 4. User Stories
-### Epic 1 – Foundation
+### Epic 1 - Foundation
 - As a developer, I need a starter-kit repo with strict TypeScript, Tailwind, and Auth.js so I can follow along without bootstrapping from scratch.
 - As a learner, I want `/Instructions` files (PRD, TechStack, steps) so I can understand the plan before coding.
 - As an instructor, I need math demos (embeddings, cosine similarity) to explain why RAG works.
 
-### Epic 2 – RAG Pipeline
+### Epic 2 - RAG Pipeline
 - As an engineer, I want ingestion utilities that clean and chunk documents with clear strategy docs.
 - As an operator, I need automated checks for chunk quality and retrieval precision so regressions surface quickly.
 - As a teammate, I want a Pinecone/Qdrant trade-off memo to justify infrastructure choices.
 
-### Epic 3 – RAG UX Integration
+### Epic 3 - RAG UX Integration
 - As a user, I expect a responsive chat UI with streaming responses and visible citations.
 - As a developer, I want prompt histories and streaming metrics to debug context relevance.
 - As a learner, I need documentation comparing RAG vs. fine-tuning so I can explain trade-offs.
 
-### Epic 4 – Agent & Orchestration
+### Epic 4 - Agent & Orchestration
 - As a power user, I want the system to decide between internal knowledge (RAG) and external search automatically.
 - As QA, I require deterministic tests proving the agent selects the correct tools for varied prompts.
 - As leadership, I need recorded demos/pitch decks explaining why the agent approach drives ROI.
 
-### Epic 5 – Observability & Deployment
+### Epic 5 - Observability & Deployment
 - As a maintainer, I must see latency, tokens, and retrieval metrics in dashboards.
 - As DevOps, I need a reliable Vercel pipeline with environment parity.
 - As stakeholders, we want a final demo day with consistent citations, performance, and UX polish.

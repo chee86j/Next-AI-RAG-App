@@ -1,4 +1,4 @@
-# Step 01 – Engineering Kickoff
+# Step 01 - Engineering Kickoff
 
 ## Objective
 Establish a shared understanding of the Parsity-aligned roadmap (see `jira_plan.md`) and confirm the engineering guardrails from `.cursor/rules/engineering` before writing any code.
@@ -9,7 +9,7 @@ Establish a shared understanding of the Parsity-aligned roadmap (see `jira_plan.
 - Sequentially numbered step files turn the build into a teachable series you can follow or replay later.
 
 ## References
-- `jira_plan.md` (Epics 1–5 overview)
+- `jira_plan.md` (Epics 1-5 overview)
 - `.cursor/rules/engineering/*` (coding principles, design rules, testing guidance)
 
 ## Next Actions

@@ -104,7 +104,7 @@ PYTHON LOGGING:
 - If coding in python, use the python logging library extensively throughout the code. This should tell a story.
 - Start each log message starting with an appropriate emoji. Think about the best emoji for what the log message is saying.
 - When a new operation is starting, use a logging info that says something like "**★** starting..." and then afterwards " ✅ **★** done." (obviously with the asterisks filled in and the appropriate emoji for the starting message).
-- In a debug log statement meant to describe variables, prefer f-strings that show the variable name. So instead of logger.debug(f'📄 Manifest path: {manifest_path}') prefer logger.debug(f'📄 {manifest_path = }')
+- In a debug log statement meant to describe variables, prefer f-strings that show the variable name. So instead of logger.debug(f'Manifest path: {manifest_path}') prefer logger.debug(f'{manifest_path = }')
 
 DEPENDENCIES:
 

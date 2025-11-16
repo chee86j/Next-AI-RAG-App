@@ -1,4 +1,4 @@
-# Step 02 – Starter Kit Verification & Repo Setup
+# Step 02 - Starter Kit Verification & Repo Setup
 
 ## Objective
 Confirm that the repository aligns with the engineering guardrails before adding new code. This includes verifying the Next.js starter kit, TypeScript strict settings, Tailwind configuration, linting, and the `.cursor/rules` structure.
